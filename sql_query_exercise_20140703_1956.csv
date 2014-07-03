@@ -1,0 +1,30 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
+74337736,create a new psql database,create database,1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"open 'psql' and type the command:
+CREATE DATABASE exercisedb;",https://www.pivotaltracker.com/story/show/74337736,
+74337856,import the tables - restore the .tar file,pg_restore,1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"from the terminal command line (not the psql terminal) type:
+$ pg_restore -d exercisedb db.tar",https://www.pivotaltracker.com/story/show/74337856,
+74337604,display all customers,select,1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"Write an sql query to find and display (Retrieve)  all the customers. Review the output table column headings, those are your data field names.",https://www.pivotaltracker.com/story/show/74337604,
+74404320,display first 5 customers,"limit, select",1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,Write a sql query to retrieve the first 5 orders.,https://www.pivotaltracker.com/story/show/74404320,
+74404760,display the customers by name in alphabetical order,"asc, order by, select",1,"Jun 30, 2014","Jul 27, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74404760,
+74407252,"display all customers by their names in reverse alphabetical order
+","desc, order by, select",1,"Jun 30, 2014","Jul 27, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74407252,
+74402420,display all items,select,1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,Write an sql query to find and display (Retrieve)  all the items. Review the table.,https://www.pivotaltracker.com/story/show/74402420,
+74405054,display all boots in the items table,"and, select, where",1,"Jun 30, 2014","Jul 27, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,Inspect the boot names. hint: use alphabetical greater or less than matchers,https://www.pivotaltracker.com/story/show/74405054,
+74402558,display all orders,select,1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,"Write an sql query to retrieve all the orders. Tip: To get out of a long list, hit esc then hit q",https://www.pivotaltracker.com/story/show/74402558,
+74403606,display first 5 orders,"limit, select",1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,Write a sql query to retrieve the first 5 orders.,https://www.pivotaltracker.com/story/show/74403606,
+74405334,display last 5 orders,"desc, limit, order by, select",1,"Jun 30, 2014","Jul 27, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,display the 5 orders with the highest id numbers. ,https://www.pivotaltracker.com/story/show/74405334,
+74408426,display the name and email address of each customer ,select,1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74408426,
+74408454,"display the id, name and address of each customer
+",select,1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74408454,
+74408758,count the number of customers,"count, select",1,"Jun 30, 2014","Jul 27, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74408758,
+74409270,"add up the dollar amout of all the orders
+","select, sum",1,"Jun 30, 2014","Jul 27, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74409270,
+74409246,add up the dollar amount of the customer with an id of 1,"select, sum, where",1,"Jun 30, 2014","Jul 27, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74409246,
+74409554,"calculate the average dollar amount of the orders
+","avg, select",1,"Jun 30, 2014","Jul 27, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74409554,
+74410604,display the customers from Maryland,"select, where",1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74410604,
+74410640,display the customers from Maryland who live in Blandamough,"and, select, where",1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74410640,
+74410682,display the customers from California and Hawaii,"or, select, where",1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74410682,
+74412056,update the name of the item whose description is “snow board” to board01,"set, update, where",1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,verify the change by viewing the items in the table,https://www.pivotaltracker.com/story/show/74412056,
+74411926,add an item to the items table with the name: kayak01 and description: one person river kayak,"insert into, values",1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,verify the entry has been added by viewing the table,https://www.pivotaltracker.com/story/show/74411926,
+74412618,delete the item that was just added with the name: kayak01 and description: one person river kayak,"delete, where",1,"Jun 30, 2014","Jul 27, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74412618,

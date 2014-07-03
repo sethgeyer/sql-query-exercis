@@ -1,6 +1,0 @@
-Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
-74337736,create a new psql database,sql,1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"open 'psql' and type the command:
-CREATE DATABASE exercisedb;",https://www.pivotaltracker.com/story/show/74337736,
-74337856,import the tables,"",1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"from the terminal command line (not the psql terminal) type:
-$ pg_restore -d exercisedb db.tar",https://www.pivotaltracker.com/story/show/74337856,
-74337604,display all customers,"query, sql",1,"Jun 30, 2014","Jul 6, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,write an sql query to find all the customers,https://www.pivotaltracker.com/story/show/74337604,
