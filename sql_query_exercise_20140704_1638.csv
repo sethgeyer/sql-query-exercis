@@ -1,8 +1,8 @@
 Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
 74337736,create a new psql database,create database,1,"Jun 30, 2014","Aug 24, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"open 'psql' and type the command:
 CREATE DATABASE exercisedb;",https://www.pivotaltracker.com/story/show/74337736,
-74337856,import the tables - restore the .tar file,pg_restore,1,"Jun 30, 2014","Aug 24, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"from the terminal command line (not the psql terminal) type:
-$ pg_restore -d exercisedb db.tar",https://www.pivotaltracker.com/story/show/74337856,
+74337856,import the tables,pg_restore,1,"Jun 30, 2014","Aug 24, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"from the terminal command line (not the psql terminal) type:
+$ psql -d exercisedb -a -f restore.sql -U gschool",https://www.pivotaltracker.com/story/show/74337856,
 74337604,display all customers,select,1,"Jun 30, 2014","Aug 24, 2014",feature,1,unstarted,"Jul 2, 2014",,,Spencer Eldred,"Write an sql query to find and display (Retrieve)  all the customers. Review the output table column headings, those are your data field names.",https://www.pivotaltracker.com/story/show/74337604,
 74404320,display first 5 customers,"limit, select",1,"Jun 30, 2014","Aug 24, 2014",feature,1,unstarted,"Jul 3, 2014",,,Spencer Eldred,Write a sql query to retrieve the first 5 orders.,https://www.pivotaltracker.com/story/show/74404320,
 74404760,display the customers by name in alphabetical order,"asc, order by, select",1,"Jun 30, 2014","Aug 24, 2014",feature,2,unstarted,"Jul 3, 2014",,,Spencer Eldred,,https://www.pivotaltracker.com/story/show/74404760,
