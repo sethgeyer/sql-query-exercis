@@ -252,8 +252,6 @@ COPY customers (id, name, email, address, city, state, zipcode) FROM '$$PATH$$/2
 -- Name: customers_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gschool
 --
 
-SELECT pg_catalog.setval('customers_id_seq', 12, true);
-
 
 --
 -- Data for Name: items; Type: TABLE DATA; Schema: public; Owner: gschool
@@ -266,8 +264,6 @@ COPY items (id, name, description) FROM '$$PATH$$/2236.dat';
 --
 -- Name: items_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gschool
 --
-
-SELECT pg_catalog.setval('items_id_seq', 9, true);
 
 
 --
@@ -282,8 +278,6 @@ COPY orderitems (id, order_id, item_id) FROM '$$PATH$$/2234.dat';
 -- Name: orderitems_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gschool
 --
 
-SELECT pg_catalog.setval('orderitems_id_seq', 168, true);
-
 
 --
 -- Data for Name: orders; Type: TABLE DATA; Schema: public; Owner: gschool
@@ -296,8 +290,6 @@ COPY orders (id, customer_id, amount) FROM '$$PATH$$/2230.dat';
 --
 -- Name: orders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gschool
 --
-
-SELECT pg_catalog.setval('orders_id_seq', 108, true);
 
 
 --
