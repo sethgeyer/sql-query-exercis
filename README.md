@@ -47,6 +47,10 @@ We will be working with four tables: customers, items, orders, and orderitems.
 1. Fork and clone this repository
 1. Import the Tracker stories in `stories.csv`
 
+## Connecting to the database
+
+To connect to the database used in this exercise, run `psql -d exercisedb` from the command line.
+
 ## Exercise
 
 For each story, copy the SQL output from psql into a text file in the output directory with the stories Tracker id.
