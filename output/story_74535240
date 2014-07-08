@@ -1,0 +1,10 @@
+exercisedb=# select * from customers limit 5;
+ id |      name      |             email             |       address       |      city      |  state   |  zipcode
+----+----------------+-------------------------------+---------------------+----------------+----------+------------
+  1 | Donato Rempel  | ladarius@waelchi.org          | 890 Ullrich Plains  | Janachester    | Virginia | 77714
+  2 | Tyrell Von DDS | cleo_frami@bartondenesik.name | 63337 Abdullah Camp | Verdieborough  | Colorado | 69882-7027
+  3 | Ms. Sofia Rowe | jacky_funk@bayerprosacco.name | 1991 Kyler Village  | Opheliaborough | Ohio     | 15599-5395
+  4 | Evert Pfeffer  | alisa.luettgen@hoeger.org     | 1311 Khalil Shores  | Port Ozella    | Arizona  | 34713
+  5 | Elta Dicki     | lesly@heaney.org              | 3878 Alyce Lock     | Deckowtown     | Montana  | 42114-6195
+(5 rows)
+

@@ -1,0 +1,14 @@
+exercisedb=# SELECT * FROM items
+exercisedb-# ;
+ id |  name  |    description
+----+--------+-------------------
+  1 | ski01  | downhill ski
+  2 | ski02  | cross country ski
+  3 | ski03  | snow board
+  4 | bike01 | mountain bike
+  5 | bike02 | road bike
+  6 | bike03 | tricycle
+  7 | boot01 | hiking boots
+  8 | boot02 | ski boots
+  9 | boot03 | moon boots
+(9 rows)

@@ -1,0 +1,14 @@
+exercisedb=# SELECT name FROM customers ORDER BY name desc;
+         name
+----------------------
+ Zelma Davis
+ Wilhelmine Huels
+ Tyrell Von DDS
+ Ms. Sofia Rowe
+ Hulda Will III
+ Evert Pfeffer
+ Elta Dicki
+ Edna Hintz
+ Donato Rempel
+ Coleman Prohaska Jr.
+(10 rows)

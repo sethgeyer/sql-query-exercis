@@ -1,0 +1,15 @@
+exercisedb=# select name from customers order by name
+exercisedb-# ;
+         name
+----------------------
+ Coleman Prohaska Jr.
+ Donato Rempel
+ Edna Hintz
+ Elta Dicki
+ Evert Pfeffer
+ Hulda Will III
+ Ms. Sofia Rowe
+ Tyrell Von DDS
+ Wilhelmine Huels
+ Zelma Davis
+(10 rows)
