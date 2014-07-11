@@ -1,0 +1,2 @@
+exercisedb=# UPDATE items SET description='board01' WHERE id=3;
+UPDATE 1

@@ -1,0 +1,5 @@
+exercisedb=# SELECT MIN(amount) FrOM orders;
+ min  
+------
+ 1.69
+(1 row)

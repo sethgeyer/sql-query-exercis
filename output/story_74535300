@@ -1,0 +1,14 @@
+exercisedb=# SELECT customers.id, customers.name, ROUND(AVG(orders.amount), 2)AS Order_Amount                                        FROM customers                                                                                                                       JOIN orders                                                                                                                          ON customers.id = orders.customer_id                                                                                                 GROUP BY customers.id                                                                                                                ORDER BY customers.name;
+ id |         name         | order_amount
+----+----------------------+--------------
+  8 | Coleman Prohaska Jr. |        57.94
+  1 | Donato Rempel        |        31.21
+  7 | Edna Hintz           |        65.50
+  5 | Elta Dicki           |        62.72
+  4 | Evert Pfeffer        |        41.06
+ 10 | Hulda Will III       |        44.79
+  3 | Ms. Sofia Rowe       |        77.51
+  2 | Tyrell Von DDS       |         3.55
+  9 | Wilhelmine Huels     |        22.39
+  6 | Zelma Davis          |        44.81
+(10 rows)

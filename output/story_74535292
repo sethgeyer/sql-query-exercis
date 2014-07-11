@@ -1,0 +1,15 @@
+exercisedb=# SELECT customer_id, SUM(amount) AS order_value FROM orders GROUP BY customer_id;
+ customer_id | order_value
+-------------+-------------
+           8 |      231.74
+           4 |      287.42
+           1 |      156.07
+           5 |      376.34
+           3 |      387.53
+          10 |      313.55
+           9 |       44.78
+           6 |      268.87
+           2 |        7.09
+           7 |      393.02
+(10 rows)
+

@@ -1,0 +1,5 @@
+exercisedb=# SELECT SUM(amount)                                                                                                      FROM customers                                                                                                                       JOIN orders                                                                                                                          ON customers.id = orders.customer_id                                                                                                 JOIN orderitems                                                                                                                      ON orders.id = orderitems.order_id                                                                                                   JOIN items                                                                                                                           ON items.id = orderitems.item_id                                                                                                     WHERE items.name = 'bike03' and customers.name = 'Evert Pfeffer';
+  sum
+--------
+ 198.47
+(1 row)

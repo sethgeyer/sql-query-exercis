@@ -1,0 +1,6 @@
+exercisedb=# SELECT * FROM customers WHERE state = 'Colorado';
+ id |         name         |             email             |       address       |     city      |  state   |  zipcode
+----+----------------------+-------------------------------+---------------------+---------------+----------+------------
+  2 | Tyrell Von DDS       | cleo_frami@bartondenesik.name | 63337 Abdullah Camp | Verdieborough | Colorado | 69882-7027
+  8 | Coleman Prohaska Jr. | taryn.becker@doyle.org        | 32202 Zemlak Ridge  | Rigobertoside | Colorado | 95667-8653
+(2 rows)

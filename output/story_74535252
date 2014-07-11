@@ -1,0 +1,10 @@
+exercisedb=# SELECT * FROM orders LIMIT 5
+exercisedb-# ;
+ id | customer_id | amount
+----+-------------+--------
+  1 |           6 |  63.35
+  2 |           5 |  55.42
+  3 |           7 |   91.7
+  4 |           4 |  49.52
+  5 |           4 |   4.81
+(5 rows)

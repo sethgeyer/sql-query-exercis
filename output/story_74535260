@@ -1,0 +1,5 @@
+exercisedb=# SELECT COUNT(*) FROM customers;
+ count
+-------
+    10
+(1 row)

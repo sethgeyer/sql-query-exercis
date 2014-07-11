@@ -1,0 +1,12 @@
+exercisedb=# SELECT items.name                                                                                                       FROM items                                                                                                                           JOIN orderitems                                                                                                                      ON items.id = orderitems.item_id                                                                                                     JOIN orders                                                                                                                          ON orders.id = orderitems.order_id                                                                                                   WHERE customer_id=2;
+  name
+--------
+ boot01
+ bike03
+ ski01
+ bike01
+ bike02
+ boot03
+ ski02
+ boot01
+(8 rows)

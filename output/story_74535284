@@ -1,0 +1,7 @@
+exercisedb=# SELECT * FROM customers WHERE state='Ohio' OR state='Virginia';
+ id |      name      |             email             |      address       |      city      |  state   |  zipcode
+----+----------------+-------------------------------+--------------------+----------------+----------+------------
+  1 | Donato Rempel  | ladarius@waelchi.org          | 890 Ullrich Plains | Janachester    | Virginia | 77714
+  3 | Ms. Sofia Rowe | jacky_funk@bayerprosacco.name | 1991 Kyler Village | Opheliaborough | Ohio     | 15599-5395
+  6 | Zelma Davis    | osborne@mohr.biz              | 184 Hazel Lane     | Alport         | Ohio     | 87119
+(3 rows)

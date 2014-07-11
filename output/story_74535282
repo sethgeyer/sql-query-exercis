@@ -1,0 +1,5 @@
+exercisedb=# SELECT * FROM customers WHERE state = 'Colorado' AND city = 'Rigobertoside';
+ id |         name         |         email          |      address       |     city      |  state   |  zipcode
+----+----------------------+------------------------+--------------------+---------------+----------+------------
+  8 | Coleman Prohaska Jr. | taryn.becker@doyle.org | 32202 Zemlak Ridge | Rigobertoside | Colorado | 95667-8653
+(1 row)

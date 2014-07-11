@@ -1,0 +1,14 @@
+exercisedb=# SELECT id, name, address, city, state, zipcode FROM customers;
+ id |         name         |       address       |       city       |   state    |  zipcode
+----+----------------------+---------------------+------------------+------------+------------
+  1 | Donato Rempel        | 890 Ullrich Plains  | Janachester      | Virginia   | 77714
+  2 | Tyrell Von DDS       | 63337 Abdullah Camp | Verdieborough    | Colorado   | 69882-7027
+  3 | Ms. Sofia Rowe       | 1991 Kyler Village  | Opheliaborough   | Ohio       | 15599-5395
+  4 | Evert Pfeffer        | 1311 Khalil Shores  | Port Ozella      | Arizona    | 34713
+  5 | Elta Dicki           | 3878 Alyce Lock     | Deckowtown       | Montana    | 42114-6195
+  6 | Zelma Davis          | 184 Hazel Lane      | Alport           | Ohio       | 87119
+  7 | Edna Hintz           | 2550 Hassan Pass    | North Kelliestad | California | 40909-5637
+  8 | Coleman Prohaska Jr. | 32202 Zemlak Ridge  | Rigobertoside    | Colorado   | 95667-8653
+  9 | Wilhelmine Huels     | 44097 Elvie Divide  | West Lauryntown  | Maine      | 55164-9178
+ 10 | Hulda Will III       | 3746 Ashton Divide  | Mikeberg         | Florida    | 22826
+(10 rows)

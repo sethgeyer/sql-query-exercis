@@ -1,0 +1,7 @@
+exercisedb=# SELECT ROUND(AVG(amount), 2) FROM orders;
+ round
+-------
+ 49.33
+(1 row)
+
+exercisedb=#

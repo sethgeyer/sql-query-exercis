@@ -1,0 +1,15 @@
+exercisedb=# SELECT customers.id, customers.name, SUM(orders.amount)                                                                 FROM orders                                                                                                                          JOIN customers                                                                                                                       ON orders.customer_id = customers.id                                                                                                 GROUP BY customers.id                                                                                                                ORDER BY customers.name;
+ id |         name         |  sum
+----+----------------------+--------
+  8 | Coleman Prohaska Jr. | 231.74
+  1 | Donato Rempel        | 156.07
+  7 | Edna Hintz           | 393.02
+  5 | Elta Dicki           | 376.34
+  4 | Evert Pfeffer        | 287.42
+ 10 | Hulda Will III       | 313.55
+  3 | Ms. Sofia Rowe       | 387.53
+  2 | Tyrell Von DDS       |   7.09
+  9 | Wilhelmine Huels     |  44.78
+  6 | Zelma Davis          | 268.87
+(10 rows)
+

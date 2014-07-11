@@ -1,0 +1,28 @@
+exercisedb=# SELECT customer_id
+exercisedb-# FROM orders
+exercisedb-# JOIN orderitems
+exercisedb-# ON orders.id = orderitems.order_id
+exercisedb-# JOIN items
+exercisedb-# ON orderitems.item_id = items.id
+exercisedb-# WHERE items.name='boot02';
+ customer_id
+-------------
+           5
+           7
+           4
+           3
+           1
+           6
+           3
+          10
+           7
+          10
+           4
+           3
+           5
+           4
+           5
+           8
+           8
+           5
+(18 rows)

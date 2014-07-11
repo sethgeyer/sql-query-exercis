@@ -1,0 +1,5 @@
+exercisedb=# SELECT SUM(amount)FROM orders  WHERE customer_id=1;
+  sum
+--------
+ 156.07
+(1 row)

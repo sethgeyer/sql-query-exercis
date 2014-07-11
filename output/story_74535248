@@ -1,0 +1,8 @@
+exercisedb=# SELECT * FROM items WHERE name LIKE 'boot%';
+ id |  name  | description
+----+--------+--------------
+  7 | boot01 | hiking boots
+  8 | boot02 | ski boots
+  9 | boot03 | moon boots
+(3 rows)
+

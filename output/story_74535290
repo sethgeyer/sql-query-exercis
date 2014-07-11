@@ -1,0 +1,2 @@
+exercisedb=# DELETE FROM items WHERE name='kayak01';
+DELETE 1

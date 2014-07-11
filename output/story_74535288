@@ -1,0 +1,3 @@
+exercisedb=# INSERT INTO items (name, description) VALUES ('kayak01', 'one person river kayak')
+exercisedb-# ;
+INSERT 0 1

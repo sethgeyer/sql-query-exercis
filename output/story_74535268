@@ -1,0 +1,5 @@
+exercisedb=# SELECT AVG(amount) FROM orders;
+         avg
+---------------------
+ 49.3282000000000000
+(1 row)
